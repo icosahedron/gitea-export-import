@@ -17,3 +17,15 @@ The export script has more features at the moment. It exports the following info
 - Dependencies
 
 The import script is not yet complete, but is included for reference.
+
+## Environment Setup
+
+A .env file is necessary with the following variables:
+- GITEA_URL = http://gitea.example.com
+- OWNER = owner
+- REPO = repo
+- TOKEN = Gitea API Key
+
+## Usage
+
+`python3 export_issues.py --help` to show the usage.
